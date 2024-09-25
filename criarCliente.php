@@ -1,3 +1,4 @@
+
 <?php
 include("conexao.php");
 
@@ -57,26 +58,50 @@ if (isset($_POST["criar"])) {
 }
 ?>
 
-<html>
-
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
-    <link rel="stylesheet" type="text/css" href="style1.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Segura Cadeira</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
-    <h1>Crie sua conta</h1>
-
-    <form action="" method="post">
-        <input placeholder="Seu nome" name="nome" type="text" required>
-        <input placeholder="Seu e-mail" name="email" type="email" required>
-        <input placeholder="Sua senha" name="senha" type="password" required>
-        <input name="criar" value="Criar conta" type="submit">
-    </form>
-
-    <form action="login.php" method="get">
-        <input name="login" value="Já tenho uma conta" type="submit">
-    </form>
-
+    <div class="container">
+        <div class="form-wrapper">
+            <img src="img/logo.png" alt="Segura Cadeira" class="logo">
+            <h2>CADASTRE-SE</h2>
+            <form action="" method="post">
+                <div class="input-group">
+                    <label for="name">Nome</label>
+                    <input placeholder="Seu nome" type="text" id="name" name="name" required>
+                </div>
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input placeholder="Seu e-mail" type="email" id="email" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="password">Senha</label>
+                    <input placeholder=" Sua senha" type="password" id="password" name="password" required>
+                </div>
+                <div class="input-group">
+                    <label for="confirm_password">Confirmar Senha</label>
+                    <input placeholder=" Confirme sua senha " type="password" id="confirm_password" name="confirm_password" required>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="terms" name="terms" required>
+                    <label for="terms">Concordo com os <a href="#">Termos de Serviço</a></label>
+                </div>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="news" name="news">
+                    <label for="news">Aceito receber notícias</label>
+                </div>
+                <input class="btn" name="criar" type="submit" value="Criar conta">
+            </form>
+            <p>Já tem uma conta? <a href="login.php">Faça Login</a></p>
+        </div>
+        <div class="right-gradient"></div> <!-- Gradiente à direita -->
+    </div>
 </body>
 
 </html>
