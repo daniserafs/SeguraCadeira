@@ -25,11 +25,7 @@ Desenvolver uma plataforma de reserva de restaurantes que conecta estabeleciment
  ## Link do Vídeo de Apresentação
  
  - [Assista ao vídeo de apresentação do projeto](#) _(substitua o link com o URL real)_
-
- ## Link do Projeto no Figma
-
-- [Projeto no Figma](https://www.figma.com/design/FJQMrilg7YAaoLxk2dSkYV/Segura-Cadeira?node-id=0-1&t=2AbhYUi8LMhMv7rD-1)
-
+ 
  ## Instruções de Configuração e Execução
  
  ### Pré-requisitos
