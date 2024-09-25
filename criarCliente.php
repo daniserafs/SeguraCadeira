@@ -1,3 +1,4 @@
+
 <?php
 include("conexao.php");
 
@@ -102,4 +103,5 @@ if (isset($_POST["criar"])) {
         <div class="right-gradient"></div> <!-- Gradiente à direita -->
     </div>
 </body>
+
 </html>
