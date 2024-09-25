@@ -18,5 +18,6 @@ CREATE TABLE IF NOT EXISTS tbl_restaurante (
     tipoCozinha VARCHAR(255) NOT NULL,
     horarioFuncionamento VARCHAR(255) NOT NULL,
     capacidadeTotal INT NOT NULL,
-    numFuncionarios INT NOT NULL
+    numFuncionarios INT NOT NULL,
+    senha_Restaurante VARCHAR(255) NOT NULL
 );
