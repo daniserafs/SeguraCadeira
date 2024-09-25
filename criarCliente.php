@@ -74,7 +74,7 @@ if (isset($_POST["criar"])) {
             <form action="" method="post">
                 <div class="input-group">
                     <label for="name">Nome</label>
-                    <input placeholder="Seu nome" type="text" id="name" name="name" required>
+                    <input placeholder="Seu nome" type="text" id="name" name="nome" required>
                 </div>
                 <div class="input-group">
                     <label for="email">E-mail</label>
@@ -82,11 +82,11 @@ if (isset($_POST["criar"])) {
                 </div>
                 <div class="input-group">
                     <label for="password">Senha</label>
-                    <input placeholder=" Sua senha" type="password" id="password" name="password" required>
+                    <input placeholder=" Sua senha" type="password" id="password" name="senha" required>
                 </div>
                 <div class="input-group">
                     <label for="confirm_password">Confirmar Senha</label>
-                    <input placeholder=" Confirme sua senha " type="password" id="confirm_password" name="confirm_password" required>
+                    <input placeholder=" Confirme sua senha " type="password" id="confirm_password" name="confirma_senha" required>
                 </div>
                 <div class="checkbox-group">
                     <input type="checkbox" id="terms" name="terms" required>
